@@ -10,5 +10,9 @@ public class Usuario {
         smartTv.ligar ();
 
         System.out.println("Novo estado: " +smartTv.ligada);
+
+        smartTv.escolherCanal(15);
+
+        System.out.println("Canal definido: " +smartTv.canal);
     }
 }
